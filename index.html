@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SkilMovies</title>
+    <script src="https://kit.fontawesome.com/fbb538ba8d.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./img/movie-icon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="d-flex justify-content-center">
+      <div class="container-md position-absolute" style="top: 20px;">
+        
+        <div class="d-md-flex justify-content-md-between">
+          <div class="title mb-3">
+            <h1 class="text-white">SkilMovies.</h1>
+          </div>
+          <div class="content">
+            <form class="search" id="form-search">
+              <input class="noborder" id="search" type="text" placeholder="search movies..">
+              <button class="noborder" id="btn-search">Search Now</button>
+            </form>
+          </div>
+        </div>
+
+        <div class="container text-center text-white sub-header d-block">
+          <h1>Sit back , Relax And Watch a Movies.</h1>
+          <a href="#main">
+            <button class="noborder shadow mt-3">List Movies</button>
+          </a>  
+        </div>
+      </div>
+    </header>
+    
+    <main class="bg-dark" id="main">
+      <div class="container">
+        <h3 class="text-white text-center py-3" style="font-weight: 700;">List Movie</h3>
+        <div class="row justify-content-center" id="mv">
+        
+        </div>
+      </div>
+    </main>
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>

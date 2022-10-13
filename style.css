@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+*{
+    font-family: 'Lato', sans-serif;
+}
+
+/* /////  HEADER START  \\\\\ */
+
+header{
+    background-image: url('./img/mv-cover.jpg');
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.title h1{
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.content input{
+    padding: 8px 15px;
+    margin-right: 10px;
+    color: #fde047;
+    background-color: #27272a;
+    border: solid #3f3f46 1px;
+}
+
+button{
+    background-color: #fde047;
+    color: black;
+    font-weight: 700;
+    padding: 6px 15px;
+}
+
+button:hover{
+    background-color: #facc15;
+}
+
+.noborder{
+    border: none;
+    outline: none;
+}
+
+.sub-header{
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    margin-top: 20%;
+}
+
+.sub-header h1{
+    font-size: 60px;
+    font-style: oblique;
+    font-weight: 900;
+}
+
+
+/* /////  HEADER END  \\\\\ */
+
+
+
+/* --------------------------------------------- */
+
+/* /////  MAIN CONTENT START  \\\\\ */
+main{
+    /* height: 100vh; */
+}
+/* /////  MAIN CONTENT END  \\\\\ */
+
+
+/*  --------------------------------------------- */
+
+
+
+/* RESPONSIVEE */
+
+@media screen and (max-width: 576px) {
+    .sub-header{
+        margin-top: 55%;
+    }
+    .sub-header h1{
+        font-size: 45px;
+    }
+    .card{
+        margin: 20px 25px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .card{
+        width: 18rem;
+        margin: 25px 10px;
+    }
+}
