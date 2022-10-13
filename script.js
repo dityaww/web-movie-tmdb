@@ -2,7 +2,7 @@ const api_key = '31c499cf30a379941277e812be4c8246'
 const base_url = 'https://api.themoviedb.org/3'
 const base_img_path = 'https://image.tmdb.org/t/p/w500'
 
-const mov_url = base_url + `/discover/movie?api_key=${api_key}&sort_by=popularity.desc`
+const mov_url = base_url + `/discover/movie?api_key=${api_key}&sort_by=popularity.desc&page=8`
 
 let GetMovie = (url) => {
     fetch(url)
